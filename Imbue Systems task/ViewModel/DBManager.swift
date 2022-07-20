@@ -8,6 +8,7 @@
 import Foundation
 import SQLite3
 
+/// Defining error states in DBManager
 enum SQLiteError: Error {
     case Prepare(message: String)
     case DatabaseNotOpened(message: String)
@@ -87,7 +88,6 @@ class DBManager: ObservableObject {
             $0.date > $1.date
         }
         
-        print(paymentsInfo)
         
     }
 }

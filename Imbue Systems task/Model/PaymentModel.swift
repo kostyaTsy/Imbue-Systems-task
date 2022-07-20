@@ -30,7 +30,7 @@ struct PaymentModel: Identifiable {
     static func convertStringToDate(strDate: String) -> Date {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "YY, MM d, HH:mm"
-        let convertedDate = dateFormatter.date(from: strDate)! //?? Date() // TODO: change
+        let convertedDate = dateFormatter.date(from: strDate)!
         
         return convertedDate
     }

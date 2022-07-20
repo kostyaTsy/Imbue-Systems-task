@@ -8,9 +8,13 @@
 import Foundation
 
 extension Date {
+    
+    /// Converting Swift's Date to string representation of date
+    /// - Returns: converted Date to formats (hours: minutes or month day)
     func formattedDate() -> String {
         let calendar = Calendar.current
         
+        // Getting date components to compare to dates by year, month and day
         let dateComponents = calendar.dateComponents([.year, .month, .day], from: self)
         let nowDateComponents = calendar.dateComponents([.year, .month, .day], from: Date())
         

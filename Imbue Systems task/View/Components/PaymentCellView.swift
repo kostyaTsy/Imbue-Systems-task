@@ -27,8 +27,6 @@ struct PaymentCellView: View {
                     Text(paymentInfo.name)
                         .font(.body)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .lineLimit(2)
-                    //Spacer()
                 }
                 .padding(.bottom, bottomPadding)
                 
@@ -40,7 +38,6 @@ struct PaymentCellView: View {
                             .font(.caption)
                             .foregroundColor(.gray)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                        //Spacer()
                     }
                     .padding(.bottom, bottomPadding)
                 }
@@ -54,8 +51,6 @@ struct PaymentCellView: View {
                             .foregroundColor(.gray)
                             .lineLimit(1)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            
-                        //Spacer()
                     }
                     .padding(.bottom, bottomPadding)
                 }
@@ -81,7 +76,7 @@ struct PaymentCellView: View {
             }
             .frame(maxWidth: 100, alignment: .trailing)
         }
-        .padding(.vertical)
+        .padding(.vertical, bottomPadding)
         
     }
     
@@ -91,6 +86,6 @@ struct PaymentCellView: View {
 
 struct PaymentCellView_Previews: PreviewProvider {
     static var previews: some View {
-        PaymentCellView(paymentInfo: PaymentModel(id: 1, name: "Kostya Tsyvilko", email: "kostya.tsyvilkoadsfdasfasdfdsafasdf@gmail.com", phoneNumber: "+1 (717) 456-1234", amountOfPayment: 50.01, date: Date(), status: .pending))
+        PaymentCellView(paymentInfo: PaymentModel(id: 1, name: "Kostya Tsyvilko", email: "kostya.tsyvilko@gmail.com", phoneNumber: "+1 (717) 456-1234", amountOfPayment: 50.01, date: Date(), status: .pending))
     }
 }

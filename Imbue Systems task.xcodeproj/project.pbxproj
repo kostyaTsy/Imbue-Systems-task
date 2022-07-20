@@ -7,31 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C30218028880078006BE3CF /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30217F28880078006BE3CF /* ChartData.swift */; };
+		7C30218328882752006BE3CF /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30218228882752006BE3CF /* BalloonMarker.swift */; };
 		7CC26D5E2885E61A0025CF4E /* Imbue_Systems_taskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26D5D2885E61A0025CF4E /* Imbue_Systems_taskApp.swift */; };
 		7CC26D602885E61A0025CF4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26D5F2885E61A0025CF4E /* ContentView.swift */; };
-		7CC26D622885E61D0025CF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC26D612885E61D0025CF4E /* Assets.xcassets */; };
 		7CC26D652885E61D0025CF4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC26D642885E61D0025CF4E /* Preview Assets.xcassets */; };
 		7CC26D6F2885E6640025CF4E /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26D6E2885E6640025CF4E /* DBManager.swift */; };
 		7CC26D742885EA1A0025CF4E /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26D732885EA1A0025CF4E /* PaymentModel.swift */; };
 		7CC26D7F2885FE0D0025CF4E /* payments.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7CC26D7E2885FE0D0025CF4E /* payments.sqlite */; };
 		7CD6D9202886AA8100609E99 /* PaymentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D91F2886AA8100609E99 /* PaymentCellView.swift */; };
 		7CD6D9222886B28500609E99 /* Date extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9212886B28500609E99 /* Date extension.swift */; };
+		7CD6D9262886EF6300609E99 /* MyLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9252886EF6300609E99 /* MyLineChartView.swift */; };
+		7CD6D92B2887436100609E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D92A2887436100609E99 /* Assets.xcassets */; };
 		CFBED846B1CF49A4FEF55C8F /* Pods_Imbue_Systems_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA14440E1B5B6AC124AE3B6B /* Pods_Imbue_Systems_task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35D423C811D276A96E2D70F0 /* Pods-Imbue Systems task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imbue Systems task.release.xcconfig"; path = "Target Support Files/Pods-Imbue Systems task/Pods-Imbue Systems task.release.xcconfig"; sourceTree = "<group>"; };
 		43338317C355E2472F39C34E /* Pods-Imbue Systems task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imbue Systems task.debug.xcconfig"; path = "Target Support Files/Pods-Imbue Systems task/Pods-Imbue Systems task.debug.xcconfig"; sourceTree = "<group>"; };
+		7C30217F28880078006BE3CF /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		7C30218228882752006BE3CF /* BalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
 		7CC26D5A2885E61A0025CF4E /* Imbue Systems task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imbue Systems task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC26D5D2885E61A0025CF4E /* Imbue_Systems_taskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imbue_Systems_taskApp.swift; sourceTree = "<group>"; };
 		7CC26D5F2885E61A0025CF4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7CC26D612885E61D0025CF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CC26D642885E61D0025CF4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CC26D6E2885E6640025CF4E /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		7CC26D732885EA1A0025CF4E /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
 		7CC26D7E2885FE0D0025CF4E /* payments.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = payments.sqlite; sourceTree = "<group>"; };
 		7CD6D91F2886AA8100609E99 /* PaymentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCellView.swift; sourceTree = "<group>"; };
 		7CD6D9212886B28500609E99 /* Date extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date extension.swift"; sourceTree = "<group>"; };
+		7CD6D9252886EF6300609E99 /* MyLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLineChartView.swift; sourceTree = "<group>"; };
+		7CD6D92A2887436100609E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA14440E1B5B6AC124AE3B6B /* Pods_Imbue_Systems_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Imbue_Systems_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,7 +96,7 @@
 				7CC26D6C2885E6360025CF4E /* ViewModel */,
 				7CC26D6B2885E62F0025CF4E /* Model */,
 				7CC26D5D2885E61A0025CF4E /* Imbue_Systems_taskApp.swift */,
-				7CC26D612885E61D0025CF4E /* Assets.xcassets */,
+				7CD6D92A2887436100609E99 /* Assets.xcassets */,
 				7CC26D632885E61D0025CF4E /* Preview Content */,
 			);
 			path = "Imbue Systems task";
@@ -109,6 +115,8 @@
 			children = (
 				7CC26D732885EA1A0025CF4E /* PaymentModel.swift */,
 				7CD6D9212886B28500609E99 /* Date extension.swift */,
+				7C30217F28880078006BE3CF /* ChartData.swift */,
+				7C30218228882752006BE3CF /* BalloonMarker.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				7CD6D91F2886AA8100609E99 /* PaymentCellView.swift */,
+				7CD6D9252886EF6300609E99 /* MyLineChartView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -207,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CC26D652885E61D0025CF4E /* Preview Assets.xcassets in Resources */,
-				7CC26D622885E61D0025CF4E /* Assets.xcassets in Resources */,
+				7CD6D92B2887436100609E99 /* Assets.xcassets in Resources */,
 				7CC26D7F2885FE0D0025CF4E /* payments.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +273,11 @@
 				7CD6D9222886B28500609E99 /* Date extension.swift in Sources */,
 				7CD6D9202886AA8100609E99 /* PaymentCellView.swift in Sources */,
 				7CC26D602885E61A0025CF4E /* ContentView.swift in Sources */,
+				7C30218328882752006BE3CF /* BalloonMarker.swift in Sources */,
+				7CD6D9262886EF6300609E99 /* MyLineChartView.swift in Sources */,
 				7CC26D6F2885E6640025CF4E /* DBManager.swift in Sources */,
 				7CC26D5E2885E61A0025CF4E /* Imbue_Systems_taskApp.swift in Sources */,
+				7C30218028880078006BE3CF /* ChartData.swift in Sources */,
 				7CC26D742885EA1A0025CF4E /* PaymentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
