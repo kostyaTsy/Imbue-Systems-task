@@ -65,7 +65,8 @@ struct PaymentCellView: View {
             
             // Amount of payment, date
             VStack {
-                Text("$"+String(paymentInfo.amountOfPayment))
+                Text("$\(paymentInfo.amountOfPayment, specifier: "%.2f")")
+                //Text("$"+String(paymentInfo.amountOfPayment))
                     .frame(maxWidth: .infinity, alignment: .trailing)
                 Spacer()
                 Text("\(paymentInfo.date.formattedDate())")
@@ -86,6 +87,6 @@ struct PaymentCellView: View {
 
 struct PaymentCellView_Previews: PreviewProvider {
     static var previews: some View {
-        PaymentCellView(paymentInfo: PaymentModel(id: 1, name: "Kostya Tsyvilko", email: "kostya.tsyvilko@gmail.com", phoneNumber: "+1 (717) 456-1234", amountOfPayment: 50.01, date: Date(), status: .pending))
+        PaymentCellView(paymentInfo: PaymentModel(id: 1, name: "Kostya Tsyvilko", email: "kostya.tsyvilko@gmail.com", phoneNumber: "+1 (717) 456-1234", amountOfPayment: 50.0, date: Date(), status: .pending))
     }
 }
