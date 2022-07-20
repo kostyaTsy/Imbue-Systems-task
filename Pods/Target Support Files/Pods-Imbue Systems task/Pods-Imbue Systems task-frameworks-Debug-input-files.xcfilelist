@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Imbue Systems task/Pods-Imbue Systems task-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework
